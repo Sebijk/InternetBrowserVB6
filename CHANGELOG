@@ -1,0 +1,123 @@
+This CHANGELOG lists only the changes of the Standard/Classic Edition (VB6)
+Hier werden nur die Änderungen der Standard/Classic Edition aufgelistet (VB6).
+
+Version 0.18
+ 
+  - Das Fenster schließt sich mit JavaScript jetzt einwandfrei
+  - Erstmals als OpenSource veröffentlicht
+  - Proprietäre Symbole durch Grafiken von Desktop Tango Project ersetzt
+  - Google Links entfernt
+  - Windows Update-Link entfernt
+ 
+Version 0.17
+
+ Internet Explorer Edition:
+
+  - Fehler beim Aufrufen von http://www.windows-unattended.de/
+    und http://windows-unattended.de/ behoben.
+  - Fehler bei der Fehlermeldung von den Popup-Fenster behoben
+  - Fehler bei der Anzeige der Statusleiste im Popup-Fenster behoben
+  - Bestätigung hinzugefügt, bevor die Fehlerseite erscheint
+  - Das Fenster schließt sich mit "javascript:window.close()" 
+    jetzt einwandfrei
+
+ Mozilla Edition:
+
+  - Javascript-Konsole hinzugefügt
+  - Mediendateien werden direkt über den Media Player abgespielt
+  - Das Fenster schließt sich mit "javascript:window.close()" 
+    jetzt einwandfrei
+
+Version 0.16
+
+  - Auto-Vervollständigen hinzugefügt
+  - Media Player hinzugefügt (Beta)
+  - Bestätigung hinzugefügt, wenn ein neues Fenster geöffnet werden soll!
+  - Neues Icon
+  - Ladebalken hinzugefügt
+  - Einen RSS-Converter hinzugefügt (Beta)
+  - AboutBox erweitert
+  - SSL-Icon hinzugefügt
+  - XP-Style wieder hinzugefügt
+  - Alle Temporären Dateien werden auf ein Temporäres Verzeichnis gespeichert
+  - Eigene Errorseiten hinzugefügt (nur IE Edition)
+  - PC auf Dialer überprüfen entfernt
+
+Version 0.15
+
+  - Man kann jetzt den Proxyserver unter Optionen konfigurieren
+  - Statusleiste befindet sich jetzt unten 
+  - Man kann jetzt überprüfen ob Java eingeschaltet ist oder nicht
+  - Browser-Lite entfernt 
+  - Notwendige Visual Basic-Dateien hinzugefügt
+
+Version 0.14
+
+  - Speicherbug behoben 
+  - Unter Google die Seite Firefox Startseite hinzugefügt 
+  - Neue Setupengine 
+
+Version 0.13
+
+  - E-Mail Adresse kann man jetzt verschlüsseln 
+  - Eigene Optionen für Standard Edition hinzugefügt
+  - Internet-Cache verwalten hinzugefügt
+
+Version 0.12
+
+ - Neuer Quelltextanzeiger (Beta)
+ - Internet-Bildbetrachter hinzugefügt
+ - Datei-Downloader angepasst
+ - Man kann die Seite jetzt auch mit Standardbrowser
+   und Internet Explorer öffnen
+
+Version 0.11
+
+ - Kleinen Fehler bei externen Link klicken behoben.
+ - Datei-Downloader hinzugefügt
+ - Info über Windows hinzugefügt
+ - Browser-Lite erweitert
+
+Version 0.10
+
+ - Wenn man auf einen externen Link klickt, wird jetzt das neue 
+   Fenster statt im Internet Explorer im Sebijk's Internet-Browser
+   geöffnet.
+ - Vollbild im Menü Ansicht hinzugefügt
+ - IP-Adresse auslesen hinzugefügt
+ - Darstellungsfehler behoben, wegen Umzug.
+ - FTP-Client hinzugefügt
+
+Version 0.09
+
+ - Rückgängig und Wiederholen hinzugefügt
+ - Alles makieren und Alles demakieren hinzugefügt
+ - Server und URL anzeigen unter Aktuelle Seite hinzugefügt
+ - Unter Windows XP wird jetzt das XP-Style angezeigt. 
+ - Installer-Problem behoben 
+ - Protokoll anzeigen hinzugefügt
+
+Version 0.08
+
+ - Bearbeitungsfunktionen hinzugefügt.
+ - Adresseneingabe passt sich jetzt der Größe an 
+ - Webseite kann man jetzt auch speichern 
+ - Druckvorschau und Seite einrichten hinzugefügt 
+ - Seiteneigenschaft hinzugefügt 
+ - Man kann jetzt in den Offlinebetrieb wechseln 
+ - Man kann den Internet komplett sperren und freigeben 
+ - SDI-Browser zusätzlich hinzugefügt 
+ - Ein Fehler bei Quelltextanzeiger behoben 
+ - Man kann den Internet Explorer aufrufen
+ - Wechseln zu... hinzugefügt
+
+Version 0.07
+
+- Google-Funktionen in der Standard-Edition hinzugefügt.
+- Datei-Browser  verbessert.
+- Quelltextanzeiger hinzugefügt
+- Sicherheit hinzugefügt 
+
+Version 0.06
+
+- Erste Version von Standard Edition

@@ -9,7 +9,7 @@ Begin VB.Form frmDocument
    Icon            =   "frmBrowser.frx":0000
    LinkTopic       =   "Form1"
    MDIChild        =   -1  'True
-   Picture         =   "frmBrowser.frx":628A
+   Picture         =   "frmBrowser.frx":058A
    ScaleHeight     =   6375
    ScaleWidth      =   8565
    ShowInTaskbar   =   0   'False
@@ -61,27 +61,27 @@ Begin VB.Form frmDocument
       BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
          NumListImages   =   6
          BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":65CC
+            Picture         =   "frmBrowser.frx":08CC
             Key             =   ""
          EndProperty
          BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":6CDE
+            Picture         =   "frmBrowser.frx":0FDE
             Key             =   ""
          EndProperty
          BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":73F0
+            Picture         =   "frmBrowser.frx":16F0
             Key             =   ""
          EndProperty
          BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":7B02
+            Picture         =   "frmBrowser.frx":1E02
             Key             =   ""
          EndProperty
          BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":8214
+            Picture         =   "frmBrowser.frx":2514
             Key             =   ""
          EndProperty
          BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":8926
+            Picture         =   "frmBrowser.frx":2C26
             Key             =   ""
          EndProperty
       EndProperty
@@ -109,7 +109,7 @@ Begin VB.Form frmDocument
       NoFolders       =   0   'False
       Transparent     =   0   'False
       ViewID          =   "{0057D0E0-3573-11CF-AE69-08002B2E1262}"
-      Location        =   ""
+      Location        =   "http:///"
    End
    Begin MSComctlLib.ImageList ImageList1 
       Left            =   1320
@@ -124,47 +124,47 @@ Begin VB.Form frmDocument
       BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
          NumListImages   =   11
          BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":9038
+            Picture         =   "frmBrowser.frx":3338
             Key             =   ""
          EndProperty
          BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":BF6A
+            Picture         =   "frmBrowser.frx":626A
             Key             =   ""
          EndProperty
          BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":EE9C
+            Picture         =   "frmBrowser.frx":919C
             Key             =   ""
          EndProperty
          BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":11DCE
+            Picture         =   "frmBrowser.frx":C0CE
             Key             =   ""
          EndProperty
          BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":14D00
+            Picture         =   "frmBrowser.frx":F000
             Key             =   ""
          EndProperty
          BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":17C32
+            Picture         =   "frmBrowser.frx":11F32
             Key             =   ""
          EndProperty
          BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":1AB64
+            Picture         =   "frmBrowser.frx":14E64
             Key             =   ""
          EndProperty
          BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":1DA96
+            Picture         =   "frmBrowser.frx":17D96
             Key             =   ""
          EndProperty
          BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":209C8
+            Picture         =   "frmBrowser.frx":1ACC8
             Key             =   ""
          EndProperty
          BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":238FA
+            Picture         =   "frmBrowser.frx":1DBFA
             Key             =   ""
          EndProperty
          BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmBrowser.frx":2682C
+            Picture         =   "frmBrowser.frx":20B2C
             Key             =   ""
          EndProperty
       EndProperty

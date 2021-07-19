@@ -2,7 +2,7 @@ VERSION 5.00
 Begin VB.Form frmInetBlock 
    BackColor       =   &H00000000&
    BorderStyle     =   3  'Fester Dialog
-   Caption         =   "Sebijks Internet-Browser"
+   Caption         =   "Sebijk's Internet-Browser"
    ClientHeight    =   1185
    ClientLeft      =   45
    ClientTop       =   360
@@ -118,12 +118,12 @@ Private Sub But_Click()
         Label1.Caption = "Internet ist geöffnet !"
         Label1.ForeColor = &HC000&
         But.Caption = "Internet sperren"
-        Me.Caption = "Sebijks Internet-Browser - [Internet ist geöffnet]"
-        fMainForm.Caption = "Sebijks Internet-Browser"
+        Me.Caption = App.Title & " - [Internet ist geöffnet]"
+        fMainForm.Caption = App.Title
         Timer1.Enabled = False
     Else
-        Me.Caption = "Sebijks Internet-Browser - [Internet ist gesperrt]"
-        fMainForm.Caption = "Sebijks Internet-Browser - [Internet gesperrt]"
+        Me.Caption = App.Title & " - [Internet ist gesperrt]"
+        fMainForm.Caption = App.Title & " - [Internet gesperrt]"
         Label1.Caption = "Internet ist gesperrt !"
         Label1.ForeColor = vbRed
         But.Caption = "Internet freigeben"

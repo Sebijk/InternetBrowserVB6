@@ -202,7 +202,7 @@ End If
 End Sub
 
 Private Sub cmdShowInfoWindows_Click()
-Call ShellAbout(fMainForm.hWnd, fMainForm.Caption, "© 2005-2006 Home of the Sebijk.de", fMainForm.Icon)
+Call ShellAbout(fMainForm.hWnd, fMainForm.Caption, "Lizenziert unter der GNU General Public License", fMainForm.Icon)
 End Sub
 
 Private Sub Form_Load()

@@ -150,20 +150,20 @@ Begin VB.MDIForm frmMain
             Object.Visible         =   0   'False
             Object.Width           =   926
             MinWidth        =   931
-            Picture         =   "frmMain.frx":63CA
+            Picture         =   "frmMain.frx":1CCA
          EndProperty
          BeginProperty Panel4 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   6
             AutoSize        =   2
             Object.Width           =   2117
             MinWidth        =   2118
-            TextSave        =   "03.11.2019"
+            TextSave        =   "19.07.2021"
          EndProperty
          BeginProperty Panel5 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   5
             Object.Width           =   2118
             MinWidth        =   2118
-            TextSave        =   "20:30"
+            TextSave        =   "11:25"
          EndProperty
       EndProperty
    End
@@ -187,67 +187,67 @@ Begin VB.MDIForm frmMain
       BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
          NumListImages   =   16
          BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":6964
+            Picture         =   "frmMain.frx":2264
             Key             =   ""
          EndProperty
          BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":7076
+            Picture         =   "frmMain.frx":2976
             Key             =   ""
          EndProperty
          BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":7788
+            Picture         =   "frmMain.frx":3088
             Key             =   ""
          EndProperty
          BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":7E9A
+            Picture         =   "frmMain.frx":379A
             Key             =   ""
          EndProperty
          BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":85AC
+            Picture         =   "frmMain.frx":3EAC
             Key             =   ""
          EndProperty
          BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":8CBE
+            Picture         =   "frmMain.frx":45BE
             Key             =   ""
          EndProperty
          BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":93D0
+            Picture         =   "frmMain.frx":4CD0
             Key             =   ""
          EndProperty
          BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":9A4A
+            Picture         =   "frmMain.frx":534A
             Key             =   ""
          EndProperty
          BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":A0C4
+            Picture         =   "frmMain.frx":59C4
             Key             =   ""
          EndProperty
          BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":A73E
+            Picture         =   "frmMain.frx":603E
             Key             =   ""
          EndProperty
          BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":ADB8
+            Picture         =   "frmMain.frx":66B8
             Key             =   ""
          EndProperty
          BeginProperty ListImage12 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":B432
+            Picture         =   "frmMain.frx":6D32
             Key             =   ""
          EndProperty
          BeginProperty ListImage13 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":BAAC
+            Picture         =   "frmMain.frx":73AC
             Key             =   ""
          EndProperty
          BeginProperty ListImage14 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":C126
+            Picture         =   "frmMain.frx":7A26
             Key             =   ""
          EndProperty
          BeginProperty ListImage15 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":C7A0
+            Picture         =   "frmMain.frx":80A0
             Key             =   ""
          EndProperty
          BeginProperty ListImage16 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMain.frx":CCE2
+            Picture         =   "frmMain.frx":85E2
             Key             =   ""
          EndProperty
       EndProperty
@@ -454,16 +454,10 @@ Begin VB.MDIForm frmMain
          Caption         =   "&Nachricht schreiben..."
       End
       Begin VB.Menu mnuShowSource 
-         Caption         =   "&Quellcodeanzeiger..."
+         Caption         =   "&Quelltextanzeiger..."
       End
       Begin VB.Menu mnuShowRSSConverter 
          Caption         =   "&RSS-Reader..."
-      End
-      Begin VB.Menu mnuSecurity 
-         Caption         =   "&Sicherheit"
-         Begin VB.Menu mnuViewWinUpdate 
-            Caption         =   "&Microsoft Windows Update"
-         End
       End
       Begin VB.Menu mnuFileBar1 
          Caption         =   "-"
@@ -680,7 +674,7 @@ If ActiveForm Is Nothing Then
 MsgBox "Bitte öffnen Sie ein neues Fenster!", vbExclamation
 Exit Sub
 Else
-ActiveForm.brwWebBrowser.Navigate InputBox("Geben Sie eine Internet-Adresse ein:", , "http://www.sebijk.de")
+ActiveForm.brwWebBrowser.Navigate InputBox("Geben Sie eine Internet-Adresse ein:", , "")
 End If
 End Sub
 
@@ -698,7 +692,7 @@ End Sub
 
 Private Sub mnuNewIE_Click()
 Set ie = New InternetExplorer
-  ie.Navigate "http://www.sebijk.de"
+  ie.Navigate "about:blank"
   ie.StatusBar = True  'Statusleiste aktivieren
   ie.MenuBar = True    'Menü aktivieren
   ie.ToolBar = 1        'Toolbar aktivieren
@@ -758,7 +752,7 @@ On Error Resume Next
 If ActiveForm Is Nothing Then
 MsgBox "Es ist kein Fenster offen.", vbCritical
 Else
-StartingAddress = "javascript:alert('Der Servername heisst: ' + document.location.hostname)"
+StartingAddress = "javascript:alert('Der Servername heißt: ' + document.location.hostname)"
 ActiveForm.brwWebBrowser.Navigate StartingAddress
 End If
 End Sub
@@ -768,7 +762,7 @@ FIBForm.Show
 End Sub
 
 Private Sub mnuShowInfoWindows_Click()
-Call ShellAbout(Me.hWnd, Me.Caption, "© 2005-2006 Home of the Sebijk.de.", Me.Icon)
+Call ShellAbout(Me.hWnd, Me.Caption, "Lizenziert unter der GNU General Public License.", Me.Icon)
 End Sub
 
 Private Sub mnuShowIP_Click()
@@ -976,13 +970,6 @@ Private Sub mnuViewStop_Click()
             End If
 End Sub
 
-Private Sub mnuViewWinUpdate_Click()
-On Error Resume Next
-    Dim winupdate As New frmDocument
-    winupdate.StartingAddress = "http://windowsupdate.microsoft.com/"
-    winupdate.Show
-End Sub
-
 Private Sub mnuVollbild_Click()
     mnuViewStatusBar.Checked = Not mnuViewStatusBar.Checked
     sbStatusBar.Visible = mnuViewStatusBar.Checked
@@ -1013,7 +1000,7 @@ End Sub
 
 Private Sub mnuViewWebBrowser_Click()
     Dim frmB As New frmDocument
-    frmB.StartingAddress = "http://www.sebijk.de"
+    frmB.StartingAddress = "about:blank"
     frmB.Show
 End Sub
 
@@ -1180,11 +1167,11 @@ If mnuWork.Checked = False Then
 mnuWork.Checked = True
 ActiveForm.brwWebBrowser.Offline = True
 fMainForm.STATUSTEXT 1, "Offline"
-Me.Caption = "Sebijks Internet-Browser Standard Edition - [Offlinebetrieb]"
+Me.Caption = App.Title & " - [Offlinebetrieb]"
 Else
 mnuWork.Checked = False
 ActiveForm.brwWebBrowser.Offline = False
-Me.Caption = "Sebijks Internet-Browser Standard Edition"
+Me.Caption = App.Title
 fMainForm.STATUSTEXT 1, "Online"
 End If
 End If

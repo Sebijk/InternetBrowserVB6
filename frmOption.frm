@@ -46,19 +46,19 @@ Begin VB.Form frmOption
    End
    Begin VB.PictureBox Picture1 
       BorderStyle     =   0  'Kein
-      Height          =   495
+      Height          =   735
       Left            =   240
       Picture         =   "frmOption.frx":0000
-      ScaleHeight     =   495
-      ScaleWidth      =   495
+      ScaleHeight     =   735
+      ScaleWidth      =   735
       TabIndex        =   0
       Top             =   240
-      Width           =   495
+      Width           =   735
    End
    Begin VB.Label TextLabel 
-      Caption         =   "Wählen Sie eine Option aus, um Sebijks Internet- Browser zu konfigurieren"
+      Caption         =   "Wählen Sie eine Option aus, um Sebijk's Internet- Browser zu konfigurieren"
       Height          =   735
-      Left            =   840
+      Left            =   960
       TabIndex        =   1
       Top             =   240
       Width           =   1935
@@ -173,4 +173,8 @@ End Sub
 Private Sub ProxySettings_Click()
  Dim ProxyForm As New frmProxy
  ProxyForm.Show
+End Sub
+
+Private Sub TextLabel_Click()
+
 End Sub

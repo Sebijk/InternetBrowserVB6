@@ -1,7 +1,7 @@
 VERSION 5.00
-Object = "{48E59290-9880-11CF-9754-00AA00C00908}#1.0#0"; "MSINET.ocx"
+Object = "{48E59290-9880-11CF-9754-00AA00C00908}#1.0#0"; "MSINET.OCX"
 Begin VB.Form frmQuellCode 
-   Caption         =   "Quellcodeanzeiger"
+   Caption         =   "Quelltextanzeiger"
    ClientHeight    =   5250
    ClientLeft      =   3060
    ClientTop       =   3450

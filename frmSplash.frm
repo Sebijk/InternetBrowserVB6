@@ -22,17 +22,6 @@ Begin VB.Form frmSplash
       TabIndex        =   0
       Top             =   120
       Width           =   9000
-      Begin VB.PictureBox Picture1 
-         BorderStyle     =   0  'Kein
-         Height          =   495
-         Left            =   3240
-         Picture         =   "frmSplash.frx":000C
-         ScaleHeight     =   495
-         ScaleWidth      =   495
-         TabIndex        =   5
-         Top             =   600
-         Width           =   495
-      End
       Begin VB.Label Label1 
          Caption         =   "Sebijk's Internet-Browser wird geladen..."
          Height          =   255
@@ -44,7 +33,7 @@ Begin VB.Form frmSplash
       Begin VB.Image imgLogo 
          Height          =   3135
          Left            =   120
-         Picture         =   "frmSplash.frx":6C8E
+         Picture         =   "frmSplash.frx":000C
          Stretch         =   -1  'True
          Top             =   360
          Width           =   3135

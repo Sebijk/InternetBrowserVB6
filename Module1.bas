@@ -2,7 +2,7 @@ Attribute VB_Name = "Module1"
 
 Public fMainForm As frmMain
 Public FIBForm As frmInetBlock
-Public Const scUserAgent = "Mozilla/5.0 (compatible; MSIE 6.0; Sebijks Internet-Browser)"
+Public Const scUserAgent = "Mozilla/5.0 (compatible; MSIE 8.0; Internet-Browser)"
 Public Declare Sub InitCommonControls Lib "comctl32.dll" ()
 
 
