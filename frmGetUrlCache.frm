@@ -79,17 +79,17 @@ Private Sub Command3_Click()
         Call MsgBox("Kein Eintrag zum löschen markiert...", vbOKOnly Or vbCritical, "Fehler")
         Exit Sub
     Else
-        Dim Result As Long
+        Dim result As Long
         
-        Result = DeleteUrl(List1.List(List1.ListIndex))
+        result = DeleteUrl(List1.List(List1.ListIndex))
         Command3.Enabled = False
         Command4.Enabled = False
-        Select Case Result
+        Select Case result
             Case 1
-                Call MsgBox(Result & vbNewLine & "Eintrag wurde gelöscht...", vbOKOnly Or vbInformation, "Info")
+                Call MsgBox(result & vbNewLine & "Eintrag wurde gelöscht...", vbOKOnly Or vbInformation, "Info")
                 Call Command2_Click
             Case 0, 2, 5
-                Call MsgBox(Result & vbNewLine & "Eintrag konnte nicht gelöscht werden...", vbOKOnly Or vbInformation, "Info")
+                Call MsgBox(result & vbNewLine & "Eintrag konnte nicht gelöscht werden...", vbOKOnly Or vbInformation, "Info")
                 Call Command2_Click
         End Select
     End If
@@ -98,13 +98,13 @@ Private Sub Command3_Click()
 End Sub
 
 Private Function DeleteUrl(ByVal URL As String) As Long
-    Dim Result As Long
+    Dim result As Long
     
-    Result = DeleteUrlCacheEntry(URL)
-    Debug.Print Result
-    Select Case Result
-        Case Is = 0, 2, 5: DeleteUrl = Result 'Löschvorgang konnte nicht ausgeführt werden
-        Case Else: DeleteUrl = Result         'Löschvorgang wurde ausgeführt
+    result = DeleteUrlCacheEntry(URL)
+    Debug.Print result
+    Select Case result
+        Case Is = 0, 2, 5: DeleteUrl = result 'Löschvorgang konnte nicht ausgeführt werden
+        Case Else: DeleteUrl = result         'Löschvorgang wurde ausgeführt
     End Select
 End Function
 

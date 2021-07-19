@@ -57,7 +57,7 @@ Private Declare Function DoFileDownload Lib "shdocvw.dll" _
         (ByVal lpszFile As String) As Long
 
 Private Sub Command1_Click()
-  Dim Result&, URL$
+  Dim result&, URL$
     URL = StrConv(Text1.Text, vbUnicode)
     Call DoFileDownload(URL)
 End Sub
