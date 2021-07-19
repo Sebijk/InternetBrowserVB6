@@ -1,11 +1,11 @@
 This CHANGELOG lists only the changes of the Standard/Classic Edition (VB6)
-Hier werden nur die Änderungen der Standard/Classic Edition aufgelistet (VB6).
+Hier werden nur die Ã„nderungen der Standard/Classic Edition aufgelistet (VB6).
 
 Version 0.18
  
-  - Das Fenster schließt sich mit JavaScript jetzt einwandfrei
-  - Erstmals als OpenSource veröffentlicht
-  - Proprietäre Symbole durch Grafiken von Desktop Tango Project ersetzt
+  - Das Fenster schlieÃŸt sich mit JavaScript jetzt einwandfrei
+  - Erstmals als OpenSource verÃ¶ffentlicht
+  - ProprietÃ¤re Symbole durch Grafiken von Desktop Tango Project ersetzt
   - Google Links entfernt
   - Windows Update-Link entfernt
  
@@ -17,106 +17,106 @@ Version 0.17
     und http://windows-unattended.de/ behoben.
   - Fehler bei der Fehlermeldung von den Popup-Fenster behoben
   - Fehler bei der Anzeige der Statusleiste im Popup-Fenster behoben
-  - Bestätigung hinzugefügt, bevor die Fehlerseite erscheint
-  - Das Fenster schließt sich mit "javascript:window.close()" 
+  - BestÃ¤tigung hinzugefÃ¼gt, bevor die Fehlerseite erscheint
+  - Das Fenster schlieÃŸt sich mit "javascript:window.close()" 
     jetzt einwandfrei
 
  Mozilla Edition:
 
-  - Javascript-Konsole hinzugefügt
-  - Mediendateien werden direkt über den Media Player abgespielt
-  - Das Fenster schließt sich mit "javascript:window.close()" 
+  - Javascript-Konsole hinzugefÃ¼gt
+  - Mediendateien werden direkt Ã¼ber den Media Player abgespielt
+  - Das Fenster schlieÃŸt sich mit "javascript:window.close()" 
     jetzt einwandfrei
 
 Version 0.16
 
-  - Auto-Vervollständigen hinzugefügt
-  - Media Player hinzugefügt (Beta)
-  - Bestätigung hinzugefügt, wenn ein neues Fenster geöffnet werden soll!
+  - Auto-VervollstÃ¤ndigen hinzugefÃ¼gt
+  - Media Player hinzugefÃ¼gt (Beta)
+  - BestÃ¤tigung hinzugefÃ¼gt, wenn ein neues Fenster geÃ¶ffnet werden soll!
   - Neues Icon
-  - Ladebalken hinzugefügt
-  - Einen RSS-Converter hinzugefügt (Beta)
+  - Ladebalken hinzugefÃ¼gt
+  - Einen RSS-Converter hinzugefÃ¼gt (Beta)
   - AboutBox erweitert
-  - SSL-Icon hinzugefügt
-  - XP-Style wieder hinzugefügt
-  - Alle Temporären Dateien werden auf ein Temporäres Verzeichnis gespeichert
-  - Eigene Errorseiten hinzugefügt (nur IE Edition)
-  - PC auf Dialer überprüfen entfernt
+  - SSL-Icon hinzugefÃ¼gt
+  - XP-Style wieder hinzugefÃ¼gt
+  - Alle TemporÃ¤ren Dateien werden auf ein TemporÃ¤res Verzeichnis gespeichert
+  - Eigene Errorseiten hinzugefÃ¼gt (nur IE Edition)
+  - PC auf Dialer Ã¼berprÃ¼fen entfernt
 
 Version 0.15
 
   - Man kann jetzt den Proxyserver unter Optionen konfigurieren
   - Statusleiste befindet sich jetzt unten 
-  - Man kann jetzt überprüfen ob Java eingeschaltet ist oder nicht
+  - Man kann jetzt Ã¼berprÃ¼fen ob Java eingeschaltet ist oder nicht
   - Browser-Lite entfernt 
-  - Notwendige Visual Basic-Dateien hinzugefügt
+  - Notwendige Visual Basic-Dateien hinzugefÃ¼gt
 
 Version 0.14
 
   - Speicherbug behoben 
-  - Unter Google die Seite Firefox Startseite hinzugefügt 
+  - Unter Google die Seite Firefox Startseite hinzugefÃ¼gt 
   - Neue Setupengine 
 
 Version 0.13
 
-  - E-Mail Adresse kann man jetzt verschlüsseln 
-  - Eigene Optionen für Standard Edition hinzugefügt
-  - Internet-Cache verwalten hinzugefügt
+  - E-Mail Adresse kann man jetzt verschlÃ¼sseln 
+  - Eigene Optionen fÃ¼r Standard Edition hinzugefÃ¼gt
+  - Internet-Cache verwalten hinzugefÃ¼gt
 
 Version 0.12
 
  - Neuer Quelltextanzeiger (Beta)
- - Internet-Bildbetrachter hinzugefügt
+ - Internet-Bildbetrachter hinzugefÃ¼gt
  - Datei-Downloader angepasst
  - Man kann die Seite jetzt auch mit Standardbrowser
-   und Internet Explorer öffnen
+   und Internet Explorer Ã¶ffnen
 
 Version 0.11
 
  - Kleinen Fehler bei externen Link klicken behoben.
- - Datei-Downloader hinzugefügt
- - Info über Windows hinzugefügt
+ - Datei-Downloader hinzugefÃ¼gt
+ - Info Ã¼ber Windows hinzugefÃ¼gt
  - Browser-Lite erweitert
 
 Version 0.10
 
  - Wenn man auf einen externen Link klickt, wird jetzt das neue 
    Fenster statt im Internet Explorer im Sebijk's Internet-Browser
-   geöffnet.
- - Vollbild im Menü Ansicht hinzugefügt
- - IP-Adresse auslesen hinzugefügt
+   geÃ¶ffnet.
+ - Vollbild im MenÃ¼ Ansicht hinzugefÃ¼gt
+ - IP-Adresse auslesen hinzugefÃ¼gt
  - Darstellungsfehler behoben, wegen Umzug.
- - FTP-Client hinzugefügt
+ - FTP-Client hinzugefÃ¼gt
 
 Version 0.09
 
- - Rückgängig und Wiederholen hinzugefügt
- - Alles makieren und Alles demakieren hinzugefügt
- - Server und URL anzeigen unter Aktuelle Seite hinzugefügt
+ - RÃ¼ckgÃ¤ngig und Wiederholen hinzugefÃ¼gt
+ - Alles makieren und Alles demakieren hinzugefÃ¼gt
+ - Server und URL anzeigen unter Aktuelle Seite hinzugefÃ¼gt
  - Unter Windows XP wird jetzt das XP-Style angezeigt. 
  - Installer-Problem behoben 
- - Protokoll anzeigen hinzugefügt
+ - Protokoll anzeigen hinzugefÃ¼gt
 
 Version 0.08
 
- - Bearbeitungsfunktionen hinzugefügt.
- - Adresseneingabe passt sich jetzt der Größe an 
+ - Bearbeitungsfunktionen hinzugefÃ¼gt.
+ - Adresseneingabe passt sich jetzt der GrÃ¶ÃŸe an 
  - Webseite kann man jetzt auch speichern 
- - Druckvorschau und Seite einrichten hinzugefügt 
- - Seiteneigenschaft hinzugefügt 
+ - Druckvorschau und Seite einrichten hinzugefÃ¼gt 
+ - Seiteneigenschaft hinzugefÃ¼gt 
  - Man kann jetzt in den Offlinebetrieb wechseln 
  - Man kann den Internet komplett sperren und freigeben 
- - SDI-Browser zusätzlich hinzugefügt 
+ - SDI-Browser zusÃ¤tzlich hinzugefÃ¼gt 
  - Ein Fehler bei Quelltextanzeiger behoben 
  - Man kann den Internet Explorer aufrufen
- - Wechseln zu... hinzugefügt
+ - Wechseln zu... hinzugefÃ¼gt
 
 Version 0.07
 
-- Google-Funktionen in der Standard-Edition hinzugefügt.
+- Google-Funktionen in der Standard-Edition hinzugefÃ¼gt.
 - Datei-Browser  verbessert.
-- Quelltextanzeiger hinzugefügt
-- Sicherheit hinzugefügt 
+- Quelltextanzeiger hinzugefÃ¼gt
+- Sicherheit hinzugefÃ¼gt 
 
 Version 0.06
 
